@@ -4,9 +4,20 @@ public class Employee {
     private int age, yearsOfService;
     private char gender;
 
-    public fullName(String name, String firstName){
+    public Employee(String name, String firstName) {
+        this.name = name;
+        this.firstName = firstName;
+    }
 
+        public String getName(){
+            return name;
+        }
+        public String getFirstname(){
+            return firstName;
 
     }
 
-}
+
+
+
+    }

@@ -12,9 +12,9 @@ public class Employee {
         this.particularity= particularity;
         this.weight= weight;
         this.income= income;
-        this.age=age;
-        this.yearsOfService=yearsOfService;
-        this.gender=gender;
+        this.age= age;
+        this.yearsOfService= yearsOfService;
+        this.gender= gender;
     }
 
         public String getName(){

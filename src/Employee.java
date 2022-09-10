@@ -23,33 +23,32 @@ public class Employee {
         public String getFirstname(){
             return firstName;
         }
-            public String getBirthdate(){
+        public String getBirthdate(){
                 return birthDate;
             }
-                public String getDepartment(){
-                    return department;
-                }
-                    public String getParticularity(){
-                        return particularity;
-                        }
-
+        public int getAge(){
+        return age;
+    }
+        public char getGender(){
+        return gender;
+    }
         public double getWeight(){
         return weight;
-        }
+    }
+        public String getDepartment(){
+                    return department;
+                }
+        public String getParticularity(){
+                        return particularity;
+                        }
         public double getIncome(){
         return income;
         }
-            public int getAge(){
-                return age;
-            }
-                public int getYearsOfService(){
-                    return yearsOfService;
-                }
-                    public char getGender(){
-                        return gender;
-                    }
+        public int getYearsOfService(){return yearsOfService; }
+
 
     }
+
 
 
 

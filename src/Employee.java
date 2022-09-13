@@ -8,12 +8,12 @@ public class Employee {
         this.name = name;
         this.firstName = firstName;
         this.birthDate= birthDate;
-        this.department= department;
+        this.department= "A38";
         this.particularity= particularity;
         this.weight= weight;
-        this.income= income;
+        this.income= 1500;
         this.age= age;
-        this.yearsOfService= yearsOfService;
+        this.yearsOfService= 0;
         this.gender= gender;
     }
 

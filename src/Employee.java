@@ -4,7 +4,7 @@ public class Employee {
     private int age, yearsOfService;
     private char gender;
 
-    public Employee(String name, String firstName, String birthDate, String department, String particularity, double weight, double income, int age, int yearsOfService, char gender) {
+    public Employee(String name, String firstName, String birthDate, String particularity, double weight, int age, char gender) {
         this.name = name;
         this.firstName = firstName;
         this.birthDate= birthDate;
@@ -32,22 +32,29 @@ public class Employee {
         public char getGender(){
         return gender;
     }
-        public double getWeight(){
-        return weight;
-    }
-        public String getDepartment(){
-                    return department;
-                }
-        public String getParticularity(){
-                        return particularity;
-                        }
-        public double getIncome(){
-        return income;
-        }
-        public int getYearsOfService(){return yearsOfService; }
+        public double getWeight()
+            {return weight;}
+
+        public String getDepartment()
+            {return department;}
+
+        public String getParticularity()
+            {return particularity;}
+
+        public double getIncome()
+            {return income;}
+
+        public int getYearsOfService()
+            {return yearsOfService; }
 
 
-    }
+    public void setDepartment(String department) {
+            this.department = department;
+
+
+            }
+}
+
 
 
 
